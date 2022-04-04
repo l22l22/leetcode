@@ -13,7 +13,7 @@ class Solution {
     }
     /*
         Max stock amount is only one.
-        If I want to get profit, I have to buy one after selling it.
+        Assuming that I always buy one the day before price went up.
         
         I can do 1. buy 2. sell 3. do nothing.
         
@@ -29,6 +29,7 @@ class Solution {
         
         So, All profit is same as sum of profit of each days going up prices.
         
+        주식은 1개밖에 가질 수 없고 그렇기 때문에 이익이 난 전날 무조건 하나를 샀다고 가정한다. (이미 주식을 가지고 있다면 팔고 샀다고 가정한다.)
         이익의 합은 다음날 값이 오른 경우의 오른 값들의 합과 같다. 
     */
 }
