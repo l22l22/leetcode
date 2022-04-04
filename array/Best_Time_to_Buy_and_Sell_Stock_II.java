@@ -5,7 +5,7 @@ class Solution {
         for(int i = 0 ; i < prices.length-1; i++){
             //다음날 오르면
             if(prices[i+1]-prices[i] > 0) {
-                //이익을 더해준다.
+                //판다.
                 profit += prices[i+1] - prices[i];
             }
         }
